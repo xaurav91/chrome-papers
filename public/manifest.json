@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "Chrome Papers",
+  "short_name": "Chrome Papers",
+  "version": "1.0",
+  "description": "Google chrome extension for wallpapers.",
+  "author": "Chrome Papers",
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "content_security_policy": "script-src 'self' 'sha256-WOdSzz11/3cpqOdrm89LBL2UPwEU9EhbDtMy2OciEhs='",
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+      "16": "icon16.png",
+      "128": "icon128.png"
+    }
+}
