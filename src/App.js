@@ -2,7 +2,7 @@
 function App() {
   return (
     <div className="App">
-      <p>wall papers</p>
+      <p>This is Chrome extension for wallpaper change.</p>
     </div>
   );
 }
