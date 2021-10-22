@@ -1,0 +1,6 @@
+const img = (path) => `/img/${path}`;
+
+// eslint-disable-next-line import/no-anonymous-default-export
+export default {
+  searchIcon: img('search.svg'),
+};
