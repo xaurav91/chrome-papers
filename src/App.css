@@ -95,3 +95,20 @@ body {
   z-index: 1;
   left: 12px;
 }
+
+.quotes{
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    color: #fff;
+}
+.quotes h2{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+}
+.quotes span{
+    font-size: 20px;
+}
